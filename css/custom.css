@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
+  background-color: #ffff;
+  box-shadow: 0 0 8px gray;
+  transition: top 0.6s ease;
+  transition: background-color 0.6s ease, box-shadow 0.6s ease;
+}
+
+/* Transparent header on scroll */
+header.transparent {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* Nav Menu */
+header .hfe-nav-menu a {
+  transition: color 0.3s ease;
+}
+
+header .hfe-nav-menu a:hover {
+  color: #b19d8b !important;
+}
+
+header .current_page_item a {
+  text-decoration: underline !important;
+  text-underline-offset: 10px;
+}
+
+header .wp-image-451 {
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+/* Menu Button */
+[data-id='b2a2ee3'] .elementor-button-link {
+  box-shadow: 0 0 8px gray;
+  background-color: whitesmoke !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+[data-id='b2a2ee3'] .elementor-button-link:hover {
+  background-color: white !important;
+}
+
+/* Contact Page */
+[data-id='9070604'] .elementor-widget-wrap {
+  padding: 0 !important;
+}
+
+/* Contact Form */
+#fluentform_3 label {
+  font-weight: normal;
+  font-family: 'Playfair Display', serif;
+}
+
+#fluentform_3 .ff-btn {
+  background-color: whitesmoke !important;
+  color: #282828 !important;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 5px gray;
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Map */
+#wpgmza_map {
+  z-index: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: black;
+  height: 22em;
+  box-shadow: 0 0 15px black;
+}
+
+/* Nav Menu on desktop */
+@media screen and (min-width: 992px) {
+  #menu-1-ba8c03d {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin-left: 6em;
+  }
+
+  #menu-1-ba8c03d li {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: fit-content !important;
+  }
+}
