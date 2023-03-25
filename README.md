@@ -1,16 +1,16 @@
 # Origano Trattoria
 
-<p>Restaurant brochure website built with Wordpress, Elementor and child theme..</p>
+<p>Restaurant brochure website built with Wordpress, Elementor and child theme.</p>
 
 ## Links
 
-- [Repo](https://github.com/Rohit19060/<project-name> 'Repo')
+- [Repo](https://github.com/1987mat/restaurant_elementor_child_theme 'Repo')
 
 - [Live](https://origanotrattoria.org/ 'Live View')
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/64235918/194164867-d4315de5-7281-4bea-a3b0-2334e09aeb47.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/64235918/227744388-1933500f-a44e-4720-af26-d90f17238a18.png" width="400"/>
 
 ## Built With
 
